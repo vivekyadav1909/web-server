@@ -11,7 +11,7 @@ app.get('/about', function (req, res){
 	res.send("About Us !");
 });
 app.get('/', function (req, res){
-	res.send("Hey asshole how are u");
+	res.send("Hello Express !");
 });
 app.use(express.static(__dirname + '/public'));
 app.listen(PORT, function(){
